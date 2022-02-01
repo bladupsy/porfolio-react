@@ -6,9 +6,7 @@
   margin: 0;
 }
 
-html{
-  scroll-behavior: smooth;
-}
+html{ scroll-behavior: smooth; }
 
 body, button, input, textarea{
   font-family: var(--body-font);
@@ -17,6 +15,7 @@ body, button, input, textarea{
 body{
   background-color: var(--body-color);
   color: var(--teal-color);
+  transition: .4s;
 }
 
 h1, h2, h3 {
@@ -24,9 +23,7 @@ h1, h2, h3 {
   font-weight: var(--font-semibold);
 }
 
-ul{
-  list-style: none;
-}
+ul{ list-style: none; }
 
 a{ text-decoration: none; }
 
@@ -40,3 +37,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container{
+  max-width: 968px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.grid{
+  display: grid;
+  gap: 1.25rem;
+}
+
+.main{ overflow: hidden; }
+
+.section{ padding: 4.5rem 0 1rem; }
+
+.section-title, .section-subtitle{ text-align: center; }
+
+.section-title{
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: 2rem;
+}
+
+.section-subtitle{
+  display: block;
+  font-size: var(--samller-font-size);
+  color: var(--text-color-light);
+}
+
+

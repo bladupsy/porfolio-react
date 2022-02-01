@@ -3,6 +3,7 @@
 
 :root{
   /*Colors*/
+  --header-height: 3.5rem;
   --purple-color: hsl(250, 66%, 75%);
   --blue-color: hsl(207, 90%, 72%);
   --rose-color: hsl(356, 66%, 75%);
@@ -11,7 +12,7 @@
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
-  --fist-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: var(--purple-color);
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
