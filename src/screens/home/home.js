@@ -4,7 +4,8 @@ import About from '../about/about'
 import Presentation from '../presentation/presentation';
 import Skills from '../skills/skills'
 import './home.css'
-function Home() {
+
+const Home = () => {
     return(
         <>
         <Navbar/>
