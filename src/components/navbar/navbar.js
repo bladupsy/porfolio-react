@@ -2,6 +2,13 @@ import  "./navbar.css"
 
 
 const Navbar = () =>{
+
+    function scrollNavbar(){
+        const navbar = document.getElementById('header')
+        if(this.scrollY >= 50) navbar.classList.add('scroll-header'); else navbar.classList.remove('scroll-header')
+    }
+    
+    window.addEventListener('scroll', scrollNavbar)
     return(
         <header className="header" id="header">
             <navbar className="navbar container">

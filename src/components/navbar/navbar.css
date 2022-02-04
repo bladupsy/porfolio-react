@@ -52,3 +52,6 @@
     hsla(var(--first-hue), var(--sat), var(--lig), .2));
     box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
 }
+.scroll-header{
+    box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
+}
