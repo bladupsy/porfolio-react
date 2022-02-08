@@ -7,7 +7,7 @@ const Work = () =>{
                 <span className='section-subtitle'>My Porfolio</span>
                 <h2 className='section-title'>Recent Works</h2>
                 <div className='work-filters'>
-                    <span className='work-item'>All</span>
+                    <span className='work-item active-work'>All</span>
                     <span className='work-item'>Web</span>
                     <span className='work-item'>Movil</span>
                     <span className='work-item'>Design</span>
@@ -39,7 +39,7 @@ const Work = () =>{
                     </div>
                     <div className='work-card'>
                         <img src='' alt='' className='work-img'/>
-                        <h3 className='work-title'>Componentes proyects</h3>
+                        <h3 className='work-title'>Challenge Frontend Mentor</h3>
                         <a href='#' className='work-button'>
                             Demo 
                             <box-icon name='right-arrow-alt'></box-icon>
