@@ -51,6 +51,9 @@
 .work-icon{
     font-size: 1rem;
     transition: .4s;
+    margin-top: 0.5rem;
+    fill: var(--first-color);
+    color: var(--first-color);
 }
 
 .active-work{
