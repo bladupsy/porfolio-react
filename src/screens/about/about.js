@@ -12,17 +12,23 @@ const About = () =>{
                 <div className='about-data'>
                     <div className='about-info'>
                     <div className='about-box'>
+                        <div className='about-icon'> 
                         <box-icon name='award'></box-icon>
+                        </div>
                         <h3 className='about-title'>Experience</h3>
                         <span className='about-subtitle'>1 Years Working</span>
                     </div>
                     <div className='about-box'>
-                    <box-icon name='briefcase-alt' ></box-icon>
+                        <div className='about-icon'>
+                        <box-icon name='briefcase-alt' ></box-icon>
+                        </div>
                         <h3 className='about-title'>Completed</h3>
                         <span className='about-subtitle'>10 -Project</span>
                     </div>
                     <div className='about-box'>
+                        <div className='about-icon'>
                         <box-icon name='support' ></box-icon>
+                        </div>
                         <h3 className='about-title'>Support</h3>
                         <span className='about-subtitle'>Online 24/7</span>
                     </div>

@@ -12,12 +12,14 @@
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
-  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  /* --first-color: hsl(var(--first-hue), var(--sat), var(--lig)); */
+  --first-color: hsl(250, 66%, 75%);
   --first-color-alt: var(--purple-color);
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
   --body-color: hsl(var(--second-hue), 48%, 8%);
+   
   --container-color: hsl(var(--second-hue), 32%, 12%);
 
   /*Fonts*/
@@ -39,6 +41,15 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+
+  /*Dark Mode*/
+  --light-0: #f8f9fa;
+  --light-1: #e9ecef;
+  --light-2: #dee2e6;
+  --dark-0: #495057;
+  --dark-1: #343a40;
+  --dark-2: #212529;
 }
 
 /*Responsive Typography*/

@@ -32,13 +32,40 @@
     display: flex;
     column-gap: .5rem;
 }
-.skills .icon{
-    color: var(--firts-color);
-    fill: var(--firts-color);
+.skills-icon{
+    color: var(--first-color);
+    fill: var(--first-color);
     font-size: 1rem;
 }
 .skills-name{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
+}
+.skills-level{
+    color: var(--text-color);
+}
+@media screen and (max-width: 320px){
+    .skills-box{
+        column-gap: 1rem;
+    }
+    .skills-name{
+        font-size: var(--small-font-size);
+    }
+}
+@media screen and (min-width: 992px) {
+    .skills-container{
+        grid-template-columns: repeat(2, 450px);
+        display: grid;
+        justify-content: center;
+
+    }
+    .skills-box{
+        column-gap: 1rem;
+    }
+    .skills-name{
+        font-size: var(--small-font-size);
+    }
+
+    
 }

@@ -11,7 +11,7 @@ modalButtons.forEach((mb, i) => {
     mb.addEventListener('click', () =>{ modalViews(i)})
 })
     return(
-        <section className='services section'>
+        <section className='services section' id='service'>
             <span className='section-subtitle'>My Services</span>
             <h2 className='section-title'>What I Offer</h2>
             <div className='services-container container grid'>

@@ -131,3 +131,33 @@
     border: 2px solid var(--first-color);
     color: var(--first-color);
 }
+
+@media screen and (max-width: 320px){
+    .home-buttons{
+        flex-direction: column;
+    }
+    .home-handle{
+        width: 150px;
+        height: 253px;
+    }
+    .home-img{
+        width: 130px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .home-handle{
+        width: 269px;
+        height: 400px;
+    }
+    .home-social{
+        padding: .4rem;
+        font-size: 1.525rem;
+    }
+    .home-social::after{
+        transform: rotate(90deg) translate(16px, 0);
+    }
+    .home-scrol-icon{
+        font-size: 2rem;
+    }
+}

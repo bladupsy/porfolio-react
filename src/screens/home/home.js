@@ -1,10 +1,7 @@
 
-import About from '../about/about'
+import { About, Skills, Presentation, Service, Work } from '../index'
 import Navbar from '../../components/navbar/navbar'
-import Presentation from '../presentation/presentation';
-import Service from '../service/service';
-import Skills from '../skills/skills'
-import Work from '../work/work';
+import Footer from '../../components/footer/footer'
 import './home.css'
 
 const Home = () => {
@@ -17,6 +14,7 @@ const Home = () => {
             <Skills />
             <Service />
             <Work />
+            <Footer />
         </section>
         </>
         

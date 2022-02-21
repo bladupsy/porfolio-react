@@ -23,12 +23,13 @@
     background-color: var(--container-color);
     border-radius: .75rem;
     padding: .75rem .5rem;
+    color: var(--text-color-light);
 }
 
 .about-icon{
     font-size: 1.5rem;
     color: var(--first-color);
-    fill: var(--fitst-color);
+    fill: var(--first-color);
     margin-bottom: .5rem;
 }
 
@@ -57,4 +58,37 @@
 .button:hover{
     background-color: var(--first-color-alt);
     color: var(--body-color);
+}
+
+@media screen and (max-width: 320px){
+    .about-info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .about-container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 4rem;
+    }
+    .about-img{
+        width: 350px;
+    }
+    .about-data{
+        text-align: initial;
+    }
+    .about-info{
+        justify-content: initial;
+    }
+    .about-box{
+        text-align: center;
+        padding: 1rem 1.25rem;
+    }
+    .about-description{
+        padding: 0 4rem 0 0;
+        margin-bottom: 2.5rem;
+    }
+
 }
