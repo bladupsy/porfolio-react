@@ -1,6 +1,6 @@
 
 import './about.css'
-import IsMe from '../../assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg'
+import IsMe from '../../assets/my.jpeg'
 
 const About = () =>{
     return(
@@ -35,8 +35,10 @@ const About = () =>{
                     </div>
                 
                     <p className='about-description'>
-                        Frontend developer, I create web pages with UI /UX user interface.
-                        I have years of experience and many clients are happy with the projects carried put.
+                    Software developer, I love to provide an accessible and beautiful user experience. 
+                    I work as a freelancer, currently for ABCDSoluctions, 
+                    performing maintenance tasks and new module implementations (new designs) 
+                    in Angular, Vue, JavaScript, and with Drupal CMS. 
                     </p>
                     <a href='#contact' className='button'>Contact Me</a>
                     </div>

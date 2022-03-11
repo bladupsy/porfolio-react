@@ -1,5 +1,5 @@
 
-import Me from '../../assets/jason-goodman-Kt-E_Qq8DW4-unsplash.jpg'
+import Me from '../../assets/my-she.jpg'
 import './presentation.css'
 
 const Presentation = () =>{

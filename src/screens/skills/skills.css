@@ -5,7 +5,7 @@
     padding-top: 1rem;
 }
 .skills-content{
-    background-color: hsl(var(--second-hue), 32%, 12%);
+    background-color: #0d2642;
     padding: 1.5rem;
     border-radius: 1.25rem;
 }

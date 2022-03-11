@@ -12,7 +12,6 @@ const Home = () => {
             <Presentation />
             <About />
             <Skills />
-            <Service />
             <Work />
             <Footer />
         </section>

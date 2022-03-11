@@ -93,7 +93,7 @@ const Skills = () =>{
                             <box-icon type='solid' name='check-circle' className='icon'></box-icon>
                             </div>
                             <div>
-                                <h3 className='skills-name'>HTML</h3>
+                                <h3 className='skills-name'>Figma</h3>
                                 <span className='skills-level'>Intermedio</span>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const Skills = () =>{
                                 </div>
                             </div>
                             <div>
-                                <h3 className='skills-name'>CSS</h3>
+                                <h3 className='skills-name'>GitHub</h3>
                                 <span className='skills-level'>Advanced</span>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ const Skills = () =>{
                             <box-icon type='solid' name='check-circle'></box-icon>
                             </div>
                             <div>
-                                <h3 className='skills-name'>Bootstrap</h3>
+                                <h3 className='skills-name'>GitLab</h3>
                                 <span className='skills-level'>Intermediate</span>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const Skills = () =>{
                             <box-icon type='solid' name='check-circle'></box-icon>
                             </div>
                             <div>
-                                <h3 className='skills-name'>JavaScript</h3>
+                                <h3 className='skills-name'>Jira</h3>
                                 <span className='skills-level'>Intermediate</span>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ const Skills = () =>{
                             <box-icon type='solid' name='check-circle'></box-icon>
                             </div>
                             <div>
-                                <h3 className='skills-name'>Git</h3>
+                                <h3 className='skills-name'>Notion</h3>
                                 <span className='skills-level'>Intermediate</span>
                             </div>
                         </div>
@@ -142,19 +142,19 @@ const Skills = () =>{
                             <box-icon type='solid' name='check-circle'></box-icon>
                             </div>
                             <div>
-                                <h3 className='skills-name'>Angular</h3>
+                                <h3 className='skills-name'>Trello</h3>
                                 <span className='skills-level'>Intermediate</span>
                             </div>
                         </div>
-                        <div className='skills-data'>
+                        {/* <div className='skills-data'>
                             <div className='skills-icon'>
                             <box-icon type='solid' name='check-circle'></box-icon>
                             </div>
                             <div>
-                                <h3 className='skills-name'>React</h3>
+                                <h3 className='skills-name'></h3>
                                 <span className='skills-level'>Basic</span>
                             </div>
-                        </div>
+                        </div> */}
                         </div>
                     </div>
                     </div>

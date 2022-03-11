@@ -10,7 +10,7 @@ const Navbar = () =>{
     return(
         <header className="header" id="header">
             <navbar className="navbar container">
-                <a href="/" className="nav-logo">Bladupsy</a>
+                <a href="/" className="nav-logo">Gisela Cristaldo</a>
                 <div className="navbar-menu">
                 <div className="nav-menu">
                     <ul className="nav-list">
