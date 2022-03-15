@@ -4,7 +4,6 @@ import './presentation.css'
 
 const Presentation = () =>{
     return(
-        
         <section className="home section" id='home'>
             <div className="home-container container grid">
                 <div className="home-data">
@@ -14,7 +13,7 @@ const Presentation = () =>{
                 </div>
                 <div className='home-buttons'>
                     {/* Link download cv */}
-                    <a download="" href='' className="button button--ghost"> Download CV</a>
+                    <a download="" href='/' className="button button--ghost"> Download CV</a>
                     <a href='#about' className='button'>About me</a>
                 </div>
                 <div className="home-handle">
@@ -37,8 +36,6 @@ const Presentation = () =>{
                 </a>
             </div>
         </section>
-
-   
     )
 }
 

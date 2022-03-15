@@ -3,8 +3,6 @@ import './work.css'
 
 const Work = () =>{
 
-    
-
     return(
             <section className='work section' id='work'>
                 <span className='section-subtitle'>My Porfolio</span>
@@ -19,7 +17,7 @@ const Work = () =>{
                     <div className='work-card mix web'>
                         <img src='' alt='' className='work-img'/>
                         <h3 className='work-title'>Webs</h3>
-                        <a href='#' className='work-button'>
+                        <a href='/' className='work-button'>
                             Demo 
                             <div className="work-icon">
                             <box-icon name='right-arrow-alt'></box-icon>
