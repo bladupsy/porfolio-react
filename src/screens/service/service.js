@@ -1,15 +1,8 @@
 import './service.css'
 
 const Service = () =>{
-    const modalViews = document.querySelectorAll('.services-modal'),
-            modalButtons = document.querySelectorAll('.services-button'),
-            modalClose = document.querySelectorAll('.services-modal-close');
     
-let modalSevice = function(modalClick){ modalViews[modalClick].classList.add('active-modal')}
 
-modalButtons.forEach((mb, i) => {
-    mb.addEventListener('click', () =>{ modalViews(i)})
-})
     return(
         <section className='services section' id='service'>
             <span className='section-subtitle'>My Services</span>
