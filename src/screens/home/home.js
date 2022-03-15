@@ -1,5 +1,5 @@
 
-import { About, Skills, Presentation, Service, Work } from '../index'
+import { About, Skills, Presentation,  Work } from '../index'
 import Navbar from '../../components/navbar/navbar'
 import Footer from '../../components/footer/footer'
 import './home.css'
