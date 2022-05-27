@@ -44,14 +44,20 @@
     column-gap: .25rem;
 }
 
-.technical-button{
+.technical-button {
     width: max-content;
     color: var(--first-color);
     font-size: var(--small-font-size);
     padding: 0rem 0.5rem 0rem 0rem;
+    
+    
 }
 .technical-button:hover {
-    transform: translateX(.25rem);
+    /* transform: translateX(.25rem); */
+    transition: height .35s ease-in-out;
+    -ms-transform: scaleY(1.5); /* IE 9 */
+    transform: scaleY(1.5);
+    font-size: 15px;
 }
 .technical-description{
     padding: 0rem 0.5rem 0rem 0rem;

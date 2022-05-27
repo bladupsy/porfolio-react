@@ -18,9 +18,9 @@ export const footer = [
     {link: 'mailto:gisela.cristaldo.work@gmail.com', icon: 'gmail', key: 3},
 ]
 export const projects = [
-    {link: 'https://lucid-pare-ec0137.netlify.app/', key: 1, title: 'Challenge FrontMentor', description: '', repository: 'https://github.com/bladupsy/order-summary-component-main', img: '../../assets/my_home.jpeg'},
-    {link: 'https://wonderful-mclean-525581.netlify.app/', key: 2, title: 'Challenge FrontMentor', description: '', repository: 'https://github.com/bladupsy/nft-card', img: ''},
-    {link: 'https://modest-pasteur-00ea66.netlify.app/', key: 3, title: 'Challenge FrontMentor', description: '', repository: 'https://github.com/bladupsy/qr-code-component-main', img: ''},
+    {link: 'https://lucid-pare-ec0137.netlify.app/', key: 1, title: 'Challenge FrontMentor', description: '', repository: 'https://github.com/bladupsy/order-summary-component-main', img: 'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Challenges/ztpxtbfhkp1af0guaylg.jpg'},
+    {link: 'https://wonderful-mclean-525581.netlify.app/', key: 2, title: 'Challenge FrontMentor', description: 'Flexbox css and React components', repository: 'https://github.com/bladupsy/nft-card', img: 'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/ca58ush26j9tadgpzvq7.jpg'},
+    {link: 'https://modest-pasteur-00ea66.netlify.app/', key: 3, title: 'Challenge FrontMentor', description: 'Responsive landing QR HTML and CSS', repository: 'https://github.com/bladupsy/qr-code-component-main', img: 'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/amuhdsnu5rx70u7ayfm2.jpg'},
 ]
 
 export const technical = [
@@ -40,4 +40,31 @@ export const javascript = [
     {key: 11, title: 'Gestión efectiva del tiempo', description: 'Soft skills',  platform: 'Platzi', certificates: 'https://platzi.com/p/Gisela-Cristaldo/curso/1749-gestion-tiempo/diploma/detalle/' },
     {key: 12, title: 'Diseño para Programadores', description: 'UX',  platform: 'Platzi', certificates: 'https://platzi.com/p/Gisela-Cristaldo/curso/1906-diseno-programadores/diploma/detalle/' },
     
+]
+export const skills = [
+    {key: 1, title: 'HTML', level: 'Intermediate'},
+    {key: 2, title: 'CSS', level: 'Advanced'},
+    {key: 3, title: 'Sass', level: 'Intermediate'},
+    {key: 4, title: 'Bootstrap', level: 'Intermediate'},
+    {key: 5, title: 'Javascript', level: 'Intermediate'},
+   
+]
+
+export const skillsFront = [
+    {key: 6, title: 'Angular', level: 'Intermediate'},
+    {key: 7, title: 'Angular Material', level: 'Intermediate'},
+    {key: 9, title: 'React', level: 'Basic'},
+    {key: 9, title: 'Tailwind', level: 'Basic'},
+    {key: 10, title: 'Git', level: 'Intermediate'},
+]
+export const skillSoft = [
+    {key: 1, title: 'Figma', level: 'Intermediate'},
+    {key: 2, title: 'GitHub', level: 'Advanced'},
+    {key: 5, title: 'GitLab', level: 'Intermediate'},
+    {key: 3, title: 'Bitbucket', level: 'Basic'},
+    {key: 6, title: 'Jira', level: 'Intermediate'},
+    {key: 7, title: 'Trello', level: 'Intermediate'},
+    {key: 8, title: 'Asana', level: 'Basic'},
+    {key: 9, title: 'WampServer', level: 'Basic'},
+    {key: 10, title: 'Postman', level: 'Intermediate'},
 ]
