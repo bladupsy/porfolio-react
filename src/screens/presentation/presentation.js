@@ -22,7 +22,7 @@ const Presentation = () =>{
                 <div className="home-social">
                     {
                         social.map((link)=>(
-                    <a href={link.link} className="home-social-link" key={link.key}  target='_blank'>
+                    <a href={link.link}  rel="noopener noreferrer" className="home-social-link" key={link.key}  target='_blank'>
                         <box-icon name={link.icon} type='logo' ></box-icon>
                     </a>
                         ))

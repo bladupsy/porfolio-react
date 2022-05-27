@@ -22,7 +22,7 @@ const Footer = () =>{
                 {
                     footer.map((footer)=>(
                 <li key={footer.key}>
-                    <a href={footer.link} className='footer-social-link'  target='_blank'>
+                    <a href={footer.link} className='footer-social-link'  target='_blank' rel="noopener noreferrer">
                     <box-icon type='logo' name={footer.icon}></box-icon>
                     </a>
                 </li>

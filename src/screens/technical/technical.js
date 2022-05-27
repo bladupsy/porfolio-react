@@ -22,7 +22,7 @@ const Technical = () => {
                     <h3 className="skills-name">{certificate.title}</h3>
                     <span className="technical-description">{certificate.description}</span>
                     <span className="technical-level">{certificate.platform}</span>
-                    <a href={certificate.certificates}  target='_blank' className="technical-button">View certificate</a>
+                    <a href={certificate.certificates}   rel="noopener noreferrer" target='_blank' className="technical-button">View certificate</a>
                   </div>
                 </div>
               ))}
@@ -44,7 +44,7 @@ const Technical = () => {
                     <h3 className="technical-name">{certificate.title}</h3>
                     <span className="technical-description">{certificate.description}</span>
                     <span className="technical-level">{certificate.platform}</span>
-                    <a href={certificate.certificates}  target='_blank' className="technical-button">View certificate</a>
+                    <a href={certificate.certificates}  rel="noopener noreferrer"  target='_blank' className="technical-button">View certificate</a>
                   </div>
                 </div>
               ))}

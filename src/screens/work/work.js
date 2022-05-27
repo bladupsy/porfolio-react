@@ -21,7 +21,7 @@ const Work = () =>{
                             <div className='work-article'>
                             <h3 className='work-title'>{item.title}</h3>
                             <p>{item.description}</p>
-                            <a href={item.link} className='work-button' target='_blank'>
+                            <a href={item.link} className='work-button'  rel="noopener noreferrer" target='_blank'>
                                 Demo 
                                 <div className="work-icon">
                                 <box-icon name='right-arrow-alt'></box-icon>
