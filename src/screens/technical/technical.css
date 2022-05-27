@@ -1,0 +1,86 @@
+@import url('../../variable.css');
+
+.skills-container{
+    row-gap: 2rem;
+    padding-top: 1rem;
+}
+.skills-content{
+    background-color: #0d2642;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+
+.skills-title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--firts-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+.skills-group{
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+}
+.skills-data{
+    display: flex;
+    column-gap: .5rem;
+}
+.skills-icon{
+    color: var(--first-color);
+    fill: var(--first-color);
+    font-size: 1rem;
+}
+.technical-name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+    column-gap: .25rem;
+}
+
+.technical-button{
+    width: max-content;
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    padding: 0rem 0.5rem 0rem 0rem;
+}
+.technical-button:hover {
+    transform: translateX(.25rem);
+}
+.technical-description{
+    padding: 0rem 0.5rem 0rem 0rem;
+}
+.technical-level{
+    color: var(--text-color);
+    padding: 0rem 0.5rem 0rem 0rem;
+}
+@media screen and (max-width: 320px){
+    .skills-box{
+        column-gap: 1rem;
+    }
+    .skills-name{
+        font-size: var(--small-font-size);
+    }
+}
+@media screen and (min-width: 992px) {
+    .technical-container{
+        grid-template-columns: repeat(2, 450px);
+        display: grid;
+        justify-content: center;
+
+    }
+    .skills-box{
+        column-gap: 1rem;
+    }
+    .skills-name{
+        font-size: var(--small-font-size);
+    }
+
+    
+}

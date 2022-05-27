@@ -1,8 +1,8 @@
 
-import './work.css'
+import './work.css';
+import { projects } from '../../config/constants';
 
 const Work = () =>{
-
     return(
             <section className='work section' id='work'>
                 <span className='section-subtitle'>My Porfolio</span>
@@ -14,46 +14,23 @@ const Work = () =>{
                     <span className='work-item' >Design</span>
                 </div>
                 <div className='work-container container grid'>
-                    <div className='work-card mix web'>
-                        <img src='' alt='' className='work-img'/>
-                        <h3 className='work-title'>Webs</h3>
-                        <a href='/' className='work-button'>
-                            Demo 
-                            <div className="work-icon">
-                            <box-icon name='right-arrow-alt'></box-icon>
+                    {
+                        projects.map((item)=> (
+                            <div className='work-card mix movil' key={item.key}>
+                            <img src={item.img} alt='' className='work-img'/>
+                            <div className='work-article'>
+                            <h3 className='work-title'>{item.title}</h3>
+                            <p>{item.description}</p>
+                            <a href={item.link} className='work-button' target='_blank'>
+                                Demo 
+                                <div className="work-icon">
+                                <box-icon name='right-arrow-alt'></box-icon>
+                                </div>
+                            </a>
                             </div>
-                        </a>
-                    </div>
-                    <div className='work-card mix movil'>
-                        <img src='' alt='' className='work-img'/>
-                        <h3 className='work-title'>Apps</h3>
-                        <a href='/' className='work-button'>
-                            Demo 
-                            <div className='work-icon'>
-                            <box-icon name='right-arrow-alt'></box-icon>
-                            </div>
-                        </a>
-                    </div>
-                    <div className='work-card mix web'>
-                        <img src='' alt='' className='work-img'/>
-                        <h3 className='work-title'>Challenge Frontend Mentor</h3>
-                        <a href='https://www.frontendmentor.io/profile/bladupsy' className='work-button'>
-                            Demo 
-                            <div className='work-icon'>
-                            <box-icon name='right-arrow-alt'></box-icon>
-                            </div>
-                        </a>
-                    </div>
-                    <div className='work-card mix movil'>
-                        <img src='' alt='' className='work-img'/>
-                        <h3 className='work-title'>Responsive Design</h3>
-                        <a href='/' className='work-button'>
-                            Demo 
-                            <div className="work-icon">
-                            <box-icon name='right-arrow-alt'></box-icon>
-                            </div>
-                        </a>
-                    </div>
+                        </div>
+                        ))
+                    }
                 </div>
             </section>
     )

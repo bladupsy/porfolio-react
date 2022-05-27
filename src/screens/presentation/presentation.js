@@ -1,5 +1,6 @@
 
 import Me from '../../assets/my-she.jpg'
+import { social } from '../../config/constants'
 import './presentation.css'
 
 const Presentation = () =>{
@@ -12,23 +13,20 @@ const Presentation = () =>{
                     <h3 className="home-education">Frontend Developer</h3>
                 </div>
                 <div className='home-buttons'>
-                    {/* Link download cv */}
-                    <a download="" href='/' className="button button--ghost"> Download CV</a>
+                    <a download="" href='../../assets/cv/CV-Cristaldo-Gisela.pdf' className="button button--ghost"> Download CV</a>
                     <a href='#about' className='button'>About me</a>
                 </div>
                 <div className="home-handle">
                         <img  className="home-img" src={Me} alt='porfolio in Gisela Cristaldo'/>
                 </div>
                 <div className="home-social">
-                    <a href='https://www.linkedin.com/in/gisela-cristaldo/' className="home-social-link">
-                        <box-icon name='linkedin-square' type='logo' ></box-icon>
+                    {
+                        social.map((link)=>(
+                    <a href={link.link} className="home-social-link" key={link.key}  target='_blank'>
+                        <box-icon name={link.icon} type='logo' ></box-icon>
                     </a>
-                    <a href='https://github.com/bladupsy' className="home-social-link">
-                        <box-icon name='github' type='logo' ></box-icon>
-                    </a>
-                    <a href='https://dribbble.com/' className="home-social-link">
-                        <box-icon name='dribbble' type='logo' ></box-icon>
-                    </a>
+                        ))
+                    }
                 </div>
                 <a href='#about' className='home-scroll'>
                     <box-icon name='mouse' ></box-icon>

@@ -1,5 +1,5 @@
 
-import { links } from '../../config/constants'
+import { footer, links } from '../../config/constants'
 import './footer.css'
 
 const Footer = () =>{
@@ -11,7 +11,7 @@ const Footer = () =>{
             <ul className='footer-list'>
             {
                 links.map((f) => (
-                    <li>
+                    <li key={f.key}>
                         <a href={f.link} className='footer-link'>{f.title}</a>
                     </li>
                 ))
@@ -19,21 +19,16 @@ const Footer = () =>{
 
             </ul>
             <ul className='footer-social'>
-                <li>
-                    <a href='https://www.linkedin.com/in/gisela-cristaldo/' className='footer-social-link'>
-                    <box-icon type='logo' name='linkedin-square'></box-icon>
+                {
+                    footer.map((footer)=>(
+                <li key={footer.key}>
+                    <a href={footer.link} className='footer-social-link'  target='_blank'>
+                    <box-icon type='logo' name={footer.icon}></box-icon>
                     </a>
                 </li>
-                <li>
-                    <a href='https://gitlab.com/bladupsy' className='footer-social-link'>
-                        <box-icon name='gitlab' type='logo' ></box-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:gisela.cristaldo.work@gmail.com" className='footer-social-link'>
-                    <box-icon name='gmail' type='logo' ></box-icon>
-                    </a>
-                </li>
+                    ))
+                }
+                
             </ul>
             <span className='footer-copy'>
                 Hecho con 💕 desde interior.
