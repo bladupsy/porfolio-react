@@ -47,7 +47,6 @@ export const skills = [
     {key: 3, title: 'Sass', level: 'Intermediate'},
     {key: 4, title: 'Bootstrap', level: 'Intermediate'},
     {key: 5, title: 'Javascript', level: 'Intermediate'},
-   
 ]
 
 export const skillsFront = [

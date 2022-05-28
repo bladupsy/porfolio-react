@@ -1,5 +1,5 @@
 
-import Me from '../../assets/my-she.jpg'
+import Me from '../../assets/images/my-she.jpg'
 import { social } from '../../config/constants'
 import './presentation.css'
 

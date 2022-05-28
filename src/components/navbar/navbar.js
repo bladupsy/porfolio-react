@@ -17,7 +17,7 @@ const Navbar = () =>{
                         {
                             links.map((l) => (
                                 <li className="nav-item" key={l.key}>
-                                    <a  target='_blank'  rel="noopener noreferrer" href={l.link} onClick={() => handleSection(l.key) } className={`nav-link ${ buttonId === l.key ? 'active-link' : null } ` }>
+                                    <a  href={l.link} onClick={() => handleSection(l.key) } className={`nav-link ${ buttonId === l.key ? 'active-link' : null } ` }>
                                     <box-icon name={l.icon} color="white" ></box-icon>
                                     </a>
                                 </li>

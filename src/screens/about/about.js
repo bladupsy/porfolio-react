@@ -1,6 +1,6 @@
 
 import './about.css'
-import IsMe from '../../assets/my.jpeg'
+import IsMe from '../../assets/images/my.jpeg'
 
 const About = () =>{
     return(
@@ -40,7 +40,7 @@ const About = () =>{
                     performing maintenance tasks and new module implementations (new designs) 
                     in Angular, Vue, JavaScript, and with Drupal CMS. 
                     </p>
-                    <a href='#contact' className='button'>Contact Me</a>
+                    <a href='mailto:gisela.cristaldo.work@gmail.com' className='button-about' >Contact Me</a>
                     </div>
             </div>
         </section>

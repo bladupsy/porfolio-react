@@ -45,7 +45,7 @@
     margin-bottom: 2rem;
 }
 
-.button{
+.button-about{
     display: inline-block;
     background-color: var(--first-color);
     color: var(--body-color);
@@ -55,9 +55,11 @@
     transition: .4s;
 }
 
-.button:hover{
-    background-color: var(--first-color-alt);
-    color: var(--body-color);
+.button-about:hover{
+    color: var(--first-color);
+    background: var(--body-color);
+    border-color: var(--first-color);
+    border: solid;
 }
 
 @media screen and (max-width: 320px){
