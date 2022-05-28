@@ -13,7 +13,7 @@ const Presentation = () =>{
                     <h3 className="home-education">Frontend Developer</h3>
                 </div>
                 <div className='home-buttons'>
-                    <a download="" href='../../assets/cv/CV-Cristaldo-Gisela.pdf' className="button button--ghost"> Download CV</a>
+                    <a download href='../../assets/cv/CV-Cristaldo-Gisela.pdf' className="button button--ghost"> Download CV</a>
                     <a href='#about' className='button'>About me</a>
                 </div>
                 <div className="home-handle">
